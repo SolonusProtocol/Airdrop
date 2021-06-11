@@ -2,7 +2,7 @@
       var refaddr = document.getElementById("refaddress").value;
       var reflink = document.getElementById("refht");
       reflink.href = '/airdrob/?ref=' + refaddr;
-      reflink.innerHTML = 'www.robowolf.tech/airdrob/?ref=' + refaddr;
+      reflink.innerHTML = 'www.solonusprotocol.github.io/Protocol/airdrob/?ref=' + refaddr;
       document.getElementById('refs').style.display = 'block';
     }
     function copyToClipboard(id) {
